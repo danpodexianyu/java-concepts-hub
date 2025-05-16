@@ -1,66 +1,38 @@
-# Compiled class files
-*.class
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Log files
-*.log
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 
-# BlueJ files
-*.ctxt
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Eclipse and IntelliJ IDEA project files
-/.classpath
-/.project
-/.settings/
-/.idea/
-/*.iml
-/out/
-
-# NetBeans files
+### NetBeans ###
 /nbproject/private/
-/build/
+/nbbuild/
 /dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# VS Code settings
+### VS Code ###
 .vscode/
 
-# Maven specific
-/logs/
-/target/
-/*.log
-*.swp
-*.swo
-*.bak
-*.tmp
-
-# Gradle specific
-.gradle/
-/*.lock
-
-# Generated files
-*.dll
-*.exe
-*.so
-*.dylib
-
-# Coverage reports
-/.coverage
-/.jacoco/
-
-# OS-specific files
-# Windows
-Thumbs.db
-Desktop.ini
-
-# macOS
+### Mac OS ###
 .DS_Store
-
-# Linux
-*~
