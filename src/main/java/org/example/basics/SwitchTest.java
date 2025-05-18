@@ -36,6 +36,7 @@ public class SwitchTest {
         }
     }
 
+    @SuppressWarnings("unused")
     private static void printWorkDays() {
         // 需求：键盘录入星期数, 输出工作日 / 休息日
         // (1 ~ 5) 工作日, (6 ~ 7) 休息日
