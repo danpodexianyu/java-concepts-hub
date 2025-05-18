@@ -1,4 +1,4 @@
-package org.example.comment;
+package org.example.basics;
 
 /**
  * 注释：不参与编译和运行, 只是对代码进行解释说明
