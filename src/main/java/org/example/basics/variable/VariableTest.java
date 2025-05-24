@@ -1,5 +1,6 @@
 package org.example.basics.variable;
 
+@SuppressWarnings("unused")
 public class VariableTest {
     public static void main(String[] args) {
         int a, b, c; // 声明3个int型整数：a、b、c

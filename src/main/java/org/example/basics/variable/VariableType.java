@@ -1,5 +1,6 @@
 package org.example.basics.variable;
 
+@SuppressWarnings("all")
 public class VariableType {
     // 成员变量
     private int instanceVar;
