@@ -17,3 +17,4 @@
 13. [switch](docs/03-flow-control/13_switch.md)
 14. [数组](docs/04-arrays/14-数组.md)
 15. [字符串](docs/05-strings/15-字符串.md)
+16. [方法](docs/06-methods/16.方法.md)
