@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Test {
-    public static void main(String[] args) {
+public class StudentManagement {
+    public static void start() {
         Scanner sc = new Scanner(System.in);
-
         List<Student> students = new ArrayList<>();
         while (true) {
             System.out.println("---------- 欢迎来到黑马学生管理系统 ----------");
