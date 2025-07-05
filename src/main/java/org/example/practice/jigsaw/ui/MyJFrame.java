@@ -5,9 +5,9 @@ import javax.swing.WindowConstants;
 
 public abstract class MyJFrame extends JFrame {
 
-    public static final String IMAGE_URL = "/Users/xianyu/IdeaProjects/java-concepts-hub/src/main/java/org/example/practice/jigsaw/image/";
-    public static final String REGISTER_IMAGE_URL = "/Users/xianyu/IdeaProjects/java-concepts-hub/src/main/java/org/example/practice/jigsaw/image/register/";
-    public static final String LOGIN_IMAGE_URL = "/Users/xianyu/IdeaProjects/java-concepts-hub/src/main/java/org/example/practice/jigsaw/image/login/";
+    public static final String IMAGE_URL = "src/main/java/org/example/practice/jigsaw/image/";
+    public static final String REGISTER_IMAGE_URL = "src/main/java/org/example/practice/jigsaw/image/register/";
+    public static final String LOGIN_IMAGE_URL = "src/main/java/org/example/practice/jigsaw/image/login/";
 
     @Override
     protected void frameInit() {

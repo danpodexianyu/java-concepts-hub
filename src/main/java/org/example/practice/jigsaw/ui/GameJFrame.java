@@ -2,12 +2,10 @@ package org.example.practice.jigsaw.ui;
 
 import javax.swing.ImageIcon;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-import javax.swing.WindowConstants;
 import javax.swing.border.BevelBorder;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,7 +22,7 @@ public class GameJFrame extends MyJFrame implements KeyListener, ActionListener 
     int x = 0;
     int y = 0;
 
-    String path = "src/main/java/org/example/practice/jigsaw/image/animal/animal3/";
+    String path = IMAGE_URL + "animal/animal3/";
 
     int[][] win = new int[][]{
             {1, 2, 3, 4},
@@ -40,7 +38,6 @@ public class GameJFrame extends MyJFrame implements KeyListener, ActionListener 
     JMenuItem reLoginItem = new JMenuItem("重新登录");
     JMenuItem closeItem = new JMenuItem("关闭游戏");
     JMenuItem accountItem = new JMenuItem("公众号");
-
 
     public GameJFrame() {
         viewInit();
@@ -172,7 +169,7 @@ public class GameJFrame extends MyJFrame implements KeyListener, ActionListener 
             this.getContentPane().add(all);
 
             // 加载背景图片
-            JLabel bgLabel = new JLabel(new ImageIcon("src/main/java/org/example/practice/jigsaw/image/background.png"));
+            JLabel bgLabel = new JLabel(new ImageIcon(IMAGE_URL + "background.png"));
             bgLabel.setBounds(40, 40, 508, 560);
             this.getContentPane().add(bgLabel);
 
